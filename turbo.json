@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "tasks": {
+    "build": {
+      "env": ["BLAH_BLAH"]
+    },
+    "lint": {},
+    "check-types": {
+      "inputs": ["**/*.{ts,tsx}"]
+    }
+  }
+}
